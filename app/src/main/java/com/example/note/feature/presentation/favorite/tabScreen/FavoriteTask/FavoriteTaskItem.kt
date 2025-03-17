@@ -50,7 +50,7 @@ fun FavoriteTaskItem(
 
     if (task.isFavorite) {
         var deleteConfirmationRequired by rememberSaveable { mutableStateOf(false) }
-        
+
 
         val textDecoration =
             if (task.isDone) TextDecoration.LineThrough else TextDecoration.None
