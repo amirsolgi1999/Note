@@ -64,7 +64,7 @@ fun FavoriteTaskItem(
         Row(
             modifier = modifier
                 .fillMaxWidth()
-                .padding(start = 15.dp, end = 6.dp),
+                .padding(start = 15.dp, end = 6.dp, bottom = 10.dp),
             horizontalArrangement = Arrangement.spacedBy(14.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
