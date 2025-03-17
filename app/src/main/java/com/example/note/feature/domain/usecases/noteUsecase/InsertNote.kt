@@ -5,7 +5,7 @@ import com.example.note.feature.domain.model.InvalidNoteException
 import com.example.note.feature.domain.model.Note
 import com.example.note.feature.domain.repo.NoteRepository
 
-class AddNote(
+class InsertNote(
     private val repository: NoteRepository,
 ) {
 

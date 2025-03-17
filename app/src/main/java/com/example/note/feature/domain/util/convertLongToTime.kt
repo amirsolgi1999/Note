@@ -11,16 +11,3 @@ fun convertLongToTime(time: Long): String {
     return format.format(date)
 }
 
-@SuppressLint("SimpleDateFormat")
-fun convertLongToTimeForTask(time: Long): String {
-    val date = Date(time)
-    val format = SimpleDateFormat("dd.MM.yyyy")
-    return format.format(date)
-}
-
-@SuppressLint("SimpleDateFormat")
-fun convertLongToTimeInHourForTask(time: Long): String {
-    val date = Date(time)
-    val format = SimpleDateFormat("HH:mm")
-    return format.format(date)
-}

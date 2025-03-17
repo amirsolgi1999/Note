@@ -5,7 +5,7 @@ import com.example.note.feature.domain.model.Task
 import com.example.note.feature.domain.repo.TaskRepository
 import kotlin.jvm.Throws
 
-class AddTask (
+class InsertTask (
     private val repository: TaskRepository
 ){
 
